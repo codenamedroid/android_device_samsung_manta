@@ -37,6 +37,9 @@ PRODUCT_PROPERTY_OVERRIDES := \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, device/samsung/manta/device.mk)
 
+# Release name
+PRODUCT_RELEASE_NAME := Nexus10
+
 PRODUCT_NAME := full_manta
 PRODUCT_DEVICE := manta
 PRODUCT_BRAND := google
